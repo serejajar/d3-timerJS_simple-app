@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Simple app using d3-timer.js</title>
+        <script src="js/d3-timer.js" defer></script>
+        <script src="js/main.js" defer></script>
+        <style>
+            body {
+                margin: 0;
+            }
+            .progress-bar {
+                width: 0%;
+                height: 10px;
+                background-color: #228B22;
+            }
+            .popup {
+                position: absolute;
+                top: calc(50% - 105px);
+                left: calc(50% - 105px);
+                width: 200px;
+                height: 200px;
+                padding: 10px;
+                background-color: #DEB887;
+                border-radius: 10px;
+                text-align: center;
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="progress-bar">
+
+        </div>
+
+        <div class="popup">
+            <h3>An annoying popup!</h3>
+        </div>
+
+    </body>
+</html>
